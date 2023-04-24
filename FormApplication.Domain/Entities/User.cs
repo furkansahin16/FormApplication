@@ -1,5 +1,4 @@
-﻿
-namespace FormApplication.Domain.Entities
+﻿namespace FormApplication.Domain.Entities
 {
     public class User : BaseUser
     {
