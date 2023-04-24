@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApplication.Base", "FormApplication.Base\FormApplication.Base.csproj", "{4C82D684-96FD-4BB7-A012-52CEA9A6F309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormApplication.Base", "FormApplication.Base\FormApplication.Base.csproj", "{4C82D684-96FD-4BB7-A012-52CEA9A6F309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApplication.Domain", "FormApplication.Domain\FormApplication.Domain.csproj", "{2F36AD2F-1E29-45C1-BA09-2116FAB01822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormApplication.Domain", "FormApplication.Domain\FormApplication.Domain.csproj", "{2F36AD2F-1E29-45C1-BA09-2116FAB01822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApplication.DataAccess", "FormApplication.DataAccess\FormApplication.DataAccess.csproj", "{AC4974AD-EE5F-4184-AE50-B52DA1E20209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApplication.Business", "FormApplication.Business\FormApplication.Business.csproj", "{7CF50F58-C813-4DEE-A5D6-D6DF9C9B3F48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2F36AD2F-1E29-45C1-BA09-2116FAB01822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F36AD2F-1E29-45C1-BA09-2116FAB01822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F36AD2F-1E29-45C1-BA09-2116FAB01822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4974AD-EE5F-4184-AE50-B52DA1E20209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4974AD-EE5F-4184-AE50-B52DA1E20209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4974AD-EE5F-4184-AE50-B52DA1E20209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4974AD-EE5F-4184-AE50-B52DA1E20209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF50F58-C813-4DEE-A5D6-D6DF9C9B3F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF50F58-C813-4DEE-A5D6-D6DF9C9B3F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF50F58-C813-4DEE-A5D6-D6DF9C9B3F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF50F58-C813-4DEE-A5D6-D6DF9C9B3F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 {
     public interface IUpdatable : IEntity
     {
-        Guid UpdatedBy { get; set; }
+        string UpdatedBy { get; set; }
         DateTime UpdatedAt { get; set; }
     }
 }

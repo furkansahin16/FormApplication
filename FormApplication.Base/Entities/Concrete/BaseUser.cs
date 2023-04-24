@@ -1,7 +1,8 @@
-﻿namespace FormApplication.Base.Entities.Concrete
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace FormApplication.Base.Entities.Concrete
 {
-    public abstract class BaseUser : BaseEntity
+    public abstract class BaseUser : IdentityUser
     {
-        public string UserName { get; set; }
     }
 }

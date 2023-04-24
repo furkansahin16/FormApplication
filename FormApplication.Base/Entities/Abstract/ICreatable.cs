@@ -2,7 +2,7 @@
 {
     public interface ICreatable : IEntity
     {
-        Guid CreatedBy { get; set; }
+        string CreatedBy { get; set; }
         DateTime CreatedAt { get; set; }
     }
 }

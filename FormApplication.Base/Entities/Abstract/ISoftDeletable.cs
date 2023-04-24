@@ -2,7 +2,7 @@
 {
     public interface ISoftDeletable : IEntity
     {
-        Guid DeletedBy { get; set; }
+        string DeletedBy { get; set; }
         DateTime DeletedAt { get; set; }
     }
 }
